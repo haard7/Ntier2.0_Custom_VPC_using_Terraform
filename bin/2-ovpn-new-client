@@ -1,0 +1,6 @@
+ssh -t -i ~/.ssh/id_rsa ubuntu@$(terraform output -raw natIP) \
+  sudo docker run \
+    --volumes-from ovpn-data \
+    --rm \
+    -it kylemanna/openvpn \
+    easyrsa build-client-full "${1}" nopass
