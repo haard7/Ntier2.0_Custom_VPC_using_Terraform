@@ -1,6 +1,9 @@
 # Ntier 2.0
 ## Custom VPC using Terraform configured with RDS, EC2 
 
+![VPC_Using_Terraform drawio](https://github.com/haard7/Ntier2.0_Custom_VPC_using_Terraform/assets/69381806/d930e459-2735-4528-9dea-36ccaa0a18b7)
+
+
 ### This project contains terraform configuration files on creating EC2 and RDS instances inside a Custom VPC on AWS. Basic information about the architecture is here  below
 
 ## Set Up
@@ -98,6 +101,11 @@ Availability zones
  - [Medium article by @Mat Little](https://medium.com/strategio/using-terraform-to-create-aws-vpc-ec2-and-rds-instances-c7f3aa416133)
 
 
+ ### All are welcomed to collaborate in this project. There are still many improvemnts are required to make. It is not completely "Resilient" and "FaultTolerant"
 
- ### Thank You 
+ No-copyright@2023 
+
+
+ ### Thank You
+
 
